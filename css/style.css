@@ -1,0 +1,120 @@
+/* Body Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  background-color: #7d7de3;
+  background-image: linear-gradient(to right, #3030cb 0%, #222831 50%, #17171e 100%);
+  color: #fff;
+}
+
+/* Container Styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(222, 104, 104, 0.2);
+  background-color: rgba(173, 78, 127, 0.1);
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Search Input Styles */
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Bookshelf Styles */
+.bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+/* Bookshelf List Styles */
+.bookshelf-list {
+  width: calc(33% - 20px);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.bookshelf-list h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.unreadBooksList {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Book Styles */
+.book {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.book:hover {
+  background-color: rgb(118, 92, 141);
+}
+
+/* Form Styles */
+form {
+  background-color: #464681;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #bdbdea;
+  gap: 3px;
+}
